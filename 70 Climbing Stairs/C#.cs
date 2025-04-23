@@ -14,3 +14,7 @@ public class Solution
         return dp[n];
     }
 }
+
+/*
+    用動態規劃方法將問題切分，n3 = n1 + n2, n4 = n2 + n3，並把結果存起來放入List避免重複計算
+*/
